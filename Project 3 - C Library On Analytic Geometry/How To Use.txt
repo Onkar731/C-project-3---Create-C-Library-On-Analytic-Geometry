@@ -1,0 +1,35 @@
+When you explore this project then you will find multiple files in the folder "Project 3 - C Library On Analytic Geometry".
+
+Files :
+	1. library.c
+	2. library.h
+	3. problem1.c
+	4. problem2.c
+	5. problem3.c
+
+Follow the steps to create ".exe" files to execute problem1, problem2 and problem3 source files.
+
+	 * execute below commands on your terminal or cmd.
+
+	1) First reach the location of these folder where you will store these files.
+
+	2) $ gcc -g -c library.c   problem1.c    problem2.c   problem3.c    (to create object files)
+
+	-> To link library files with program files to use user-defined functions in programs
+
+	3) $ gcc -o problem1 problem1.c library.c 
+
+	4) $ gcc -o problem2 problem2.c library.c 
+
+	5) $ gcc -o problem3 problem3.c library.c 
+
+	-> To execute programs
+
+	6) $ problem1 or ./problem1
+
+	7) $ problem2 or ./problem2
+
+	8) $ problem3 or ./problem3
+
+
+Good Luck........ Happy Coding........... Hope This Will Help you......
